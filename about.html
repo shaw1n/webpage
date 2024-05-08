@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ABOUT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #551199;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 970px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFFFF;
+  height: 100px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #551199;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 500px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>ABOUT</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<b>
+      <li><a href="index.html">HOME</a></li>
+	 <b>
+	 <li><a href="about.html">ABOUT</a></li>
+      <b>
+	  <li><a href="school.html">SCHOOL</a></li>
+	  <b>
+     
+	 <li><a href="dte.html">DTE</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>☆ About Myself ☆</h1>
+    <h3><p>My name is Sean </p></h3>
+    <h3><p>Yes I have friends</p></h3>
+	<h3><p>I am filled with kindness and I am a trustworthy person</p></h3>
+	
+	<img src="images\nz.jpg" alt="Trulli" width="350" height="190">
+	
+		<h3><p>Playing video games are the only thing that's keeping me alive</p></h3>
+	<h3><p>I also played a bit of football back in my youth</p></h3>
+	
+	<img src="images\ronaldo.jpg" alt="Trulli" width="360" height="230"> <img src="images\ronaldob.jpg" alt="Trulli" width="360" height="230"> 
+	
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>

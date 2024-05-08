@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HOME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #551199;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFFFF;
+  height: 100px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #551199;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 500px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>HOME</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<b>
+      <li><a href="index.html">HOME</a></li>
+	 <b>
+	 <li><a href="about.html">ABOUT</a></li>
+      <b>
+	  <li><a href="school.html">SCHOOL</a></li>
+	  <b>
+     
+	 <li><a href="dte.html">DTE</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>☆ My Works ☆</h1>
+	
+    <h3><p>These 2 images shows the work I did using blender</p><h3>
+	
+	<h3><p>I have made a simple model to animate</p></h3>
+	
+
+	<h3><p>I have it animated which moved forward then back</p></h3>
+	
+	<img src="images\blender.jpg" alt="Trulli" width="250" height="333"> <img src="images\blender2.jpg"  alt="Trulli"width="250" height="333">
+	
+	<h3><p>The work I have here are from inkscape</p><h3>
+	
+
+	<h3><p>Images shown below are the ones I have finished</p><h3>  
+	
+	<img src="images\heart.jpg" alt="Trulli" width="250" height="333"> <img src="images\emerald.jpg" alt="Trulli" width="310" height="333"> <img src="images\flower.jpg" alt="Trulli" width="300" height="333"> <img src="images\swirl.jpg" alt="Trulli" width="300" height="333">
+	 
+	
+	
+	
+	
+	
+	
+	
+
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
